@@ -79,7 +79,7 @@
 </style>
 <defs>
 	<audio  id="idassommarvisa" preload="auto" xmlns="http://www.w3.org/1999/xhtml">
-		<source  src="audio/idassommarvisa.mp3" type="audio/mpeg"></source>
+		<source  src="idassommarvisa.mp3" type="audio/mpeg"></source>
 	</audio>
 </defs>
 <script xlink:href="idassommarvisa.js" />
