@@ -1,15 +1,28 @@
 <html>
-    <meta charset="UTF-8">
+<head>
 <title>GeoGebra test</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name=viewport content="width=device-width,initial-scale=1">  
+<meta charset="utf-8"/>
+    </head>
 
+    <script src="https://www.geogebra.org/apps/deployggb.js"></script>
+    
 <body>
 
+    <div id="ggb-element"></div> 
 
   <iframe scrolling="no" title="Logistisk" src="https://www.geogebra.org/material/iframe/id/mkwbkdgj/width/693/height/496/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/true" width="693px" height="496px" style="border:0px;"> </iframe>
     
     <iframe scrolling="no" title="Likformiga Trianglar" src="https://www.geogebra.org/material/iframe/id/TXNMMYkD/width/991/height/599/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/true" width="991px" height="599px" style="border:0px;"> </iframe>
     
-
 </body>
+    
+    <script>  
+    var params = {"appName": "graphing", "width": 800, "height": 600, "showToolBar": true, "showAlgebraInput": false, "showMenuBar": false, "material_id":"zzm3fdxa", "playButton": true };
+    var applet = new GGBApplet(params, true);
+    window.addEventListener("load", function() { 
+        applet.inject('ggb-element');
+    });
+</script>
+    
 </html>
